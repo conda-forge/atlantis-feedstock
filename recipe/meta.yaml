@@ -1,5 +1,5 @@
 {% set name = "atlantis" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   - folder: src/github.com/runatlantis/{{ name }}
     url: https://github.com/runatlantis/{{ name }}/archive/v{{ version }}.tar.gz
-    sha256: 140a70c62b7a39d7f888d0f1a38ff7481ba158d5c3c4ddc5d908a35086f00320
+    sha256: c9c89d55bf6bf50cd213710d731bfaf57c9a9587168a1d789643465826292fd1
 
 build:
   number: 0
