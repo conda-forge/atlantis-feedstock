@@ -11,7 +11,7 @@ source:
     sha256: ff3b8b38c59c54ff9ff2dfd0c53c69af5308a6c6f64f92d1c4ece87a7d35f1c6
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -34,4 +34,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - sodre
